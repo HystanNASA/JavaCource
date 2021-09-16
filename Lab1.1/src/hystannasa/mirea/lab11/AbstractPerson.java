@@ -7,6 +7,8 @@ public abstract class AbstractPerson implements HumanInterface {
         this.name = name;
     }
 
+    AbstractPerson() {}
+
     public abstract String think();
     public void setName(String name) { this.name = name; }
     public String getName() { return name; }
