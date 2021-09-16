@@ -1,4 +1,4 @@
-package hystannasa.mirea.exercise1;
+package hystannasa.mirea.lab13;
 
 public class Ball {
     private double radius;

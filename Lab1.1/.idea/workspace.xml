@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5cc4f89-87b3-440d-bd7d-8c99ff4837ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1.1/hystannasa/mirea/lab11/AbstractPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1.1/hystannasa/mirea/lab11/AbstractPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1.1/hystannasa/mirea/lab11/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1.1/hystannasa/mirea/lab11/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1.1/hystannasa/mirea/lab11/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/AbstractPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/AbstractPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab1.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Application.Lab1.1">
