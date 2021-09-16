@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="846b2d6a-9838-4690-9a45-e3d9177de57f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab1.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/exercise1/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab12/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/exercise1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab12/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/exercise1/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab12/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab12/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="846b2d6a-9838-4690-9a45-e3d9177de57f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
