@@ -17,10 +17,4 @@ public class Main
         EmployeeTest employee = new EmployeeTest();
         employee.test();
     }
-
-    private static void test(Person person) {
-        person.setName("Roman");
-        person.setAge(19);
-        person.setHeight(1.8f);
-    }
 }
