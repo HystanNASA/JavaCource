@@ -17,6 +17,7 @@ public class PersonTest {
             System.out.println(person1.getName());
             System.out.println(person1.getAge());
             System.out.println(person1.getHeight());
+            System.out.println(person1.isValid());
         } catch(Exception e) {
             e.printStackTrace();
         }

@@ -20,19 +20,28 @@ public class Person
     public void setAge(int age) {
         this.age = age;
 
-        isAgeValid = true;
+        if(age < MAX_AGE && age > -1)
+            isAgeValid = true;
+        else
+            isAgeValid = false;
     }
 
     public void setName(String name) {
         this.name = name;
 
-        isNameValid = true;
+        if (!name.isEmpty())
+            isNameValid = true;
+        else
+            isNameValid = false;
     }
 
     public void setHeight(float height) {
         this.height = height;
 
-        isHeightValid = true;
+        if(height < MAX_HEIGHT && height > 0)
+            isHeightValid = true;
+        else
+            isHeightValid = false;
     }
 
     public String getName() { return name; }
