@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5cc4f89-87b3-440d-bd7d-8c99ff4837ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hystannasa/mirea/lab11/PersonTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e5cc4f89-87b3-440d-bd7d-8c99ff4837ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Учёба/2 Курс/Java/Проверка заданий/SaimonYa/My" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Application.Lab1.1">
