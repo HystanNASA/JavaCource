@@ -1,46 +1,66 @@
 package hystannasa.mirea.classwork;
 
-public final class MyString {
-    private final char[] string;
+import java.util.Arrays;
 
-    public MyString(char[] string) {
-        this.string = string;
+public class MyString {
+    private final char c[];
+    MyString(char[] c) {
+        this.c = c;
     }
 
-    public MyString(String string) {
-        this.string = string.toCharArray();
-    }
-
-    public MyString concat(String string2) {
-        return MyString(string + string2.toCharArray());
-    }
-
-    public String concat(char[] string2) {
-        return string.toString() + string2.toString();
-    }
-
-    public char charAt(int index) {
-        if(index >= 0) {
-            return string[index];
+    public MyString concat(MyString str) {
+        char[] st = new char[str.c.length+this.c.length];
+        MyString mst = new MyString(st);
+        int count = 0;
+        for(int i = 0; i < this.c.length; i++) {
+            st[i] = this.c[i];
+            count++;
         }
-        else
-            return 0;
+        for(int j = 0; j<str.c.length; j++) {
+            st[count++] = str.c[j];
+        }
+        return mst;
+    }
+    void print() {
+        for(int i = 0; i < c.length; i++)
+        {
+            System.out.print(c[i]);
+        }
+    }
+    char CharAt(int index) {
+        return c[index];
+    }
+    boolean isEmpty() {
+        if (c.length == 0) return true;
+        else return  false;
+    }
+    MyString trim() {
+        int count = 0;
+        char[] src = new char[c.length];
+        for (int i = 0; i < c.length; i++)
+            if (c[i] == 0){
+                ++count;
+
+            } else src[i - count] = c[i];
+        MyString mc = new MyString(src);
+        return mc;
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        MyString myString = (MyString) o;
+        return Arrays.equals(c, myString.c);
     }
 
-    public boolean equals(MyString string2) {
-        return string.toString() == string2.toString() ? true : false;
-    }
-
-    public void trim() {
-        string.toString().trim();
-    }
-
-    public boolean isEmpty() {
-        return string.toString().isEmpty();
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(c);
     }
 
     @Override
     public String toString() {
-        return string.toString();
+        return Arrays.toString(this.c);
     }
+
 }

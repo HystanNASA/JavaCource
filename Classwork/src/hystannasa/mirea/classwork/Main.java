@@ -2,10 +2,12 @@ package hystannasa.mirea.classwork;
 
 public class Main {
     public static void main(String[] args) {
-        MyString string = new MyString("  Roman  ");
+        MyString myString = new MyString("Roman".toCharArray());
 
-        string.trim();
+        myString.trim();
+        myString = myString.concat(new MyString(" Sannikov".toCharArray()));
 
-        System.out.println(string);
+        myString.print();
+        System.out.println(myString);
     }
 }
